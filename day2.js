@@ -85,3 +85,27 @@ function checkNumber(num) {
 checkNumber(-1);   // log negative
 checkNumber(10)
 
+
+let number1 = 190
+let number2 = 200
+
+let Addition = number1 + number2
+let subtraction = number1 - number2
+let division = number1 / number2
+let multiply = number1 * number2
+let remainder = number1 % number2
+console.log(`Addiiton ${Addition}, Subtraction ${subtraction} , division: ${division}, remainder : ${remainder} and multiplication ${multiply}`)
+
+
+let numb1 = 1000
+let numb2 = 2000
+let resultFile = numb1 > numb2
+
+let resultFile2 = numb1 < numb2
+if (resultFile && resultFile2) {
+  console.log(`both are true`)
+}
+if (resultFile || resultFile2) {
+  console.log(`one of them is true`)
+}
+
