@@ -50,3 +50,33 @@ function largestNumber(a, b, c) {
 
 let result = largestNumber(1, 4, 8)
 console.log(result)
+
+
+// write a program to that uses switch case to determine day of the week based on number (1-7) and log the day name on console
+
+const day = 6
+
+switch (day) {
+  case 1:
+    console.log('today is monday')
+    break
+  case 2:
+    console.log('today is 2nd day of week')
+    break
+  case 3:
+    console.log('today is third day of week')
+    break
+  case 4:
+    console.log('today is thursday  of week')
+    break
+  case 5:
+    console.log('today is friday of week')
+    break
+  case 6:
+  case 7:
+    console.log("its week end")
+    break
+  default:
+    console.log('not valid day name')
+
+}
